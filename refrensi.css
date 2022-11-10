@@ -1,0 +1,319 @@
+.nav-wrapper {
+    z-index: 1;
+}
+
+.huruf {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.bawah:hover::after {
+    margin-left: auto;
+    content: '';
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-bottom: 3px solid yellowgreen;
+    margin-bottom: -8px;
+    margin-top: -13px;
+}
+
+.parallax-container {
+    width: 100%;
+    height: 700px;
+    display: inline-block;
+    margin-top: -65px;
+}
+
+.text-1 {
+    margin-top: 130px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.text-1 p {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.text-1 h2 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+/* Services */
+
+.judul-1 {
+    margin-top: 120px;
+}
+
+p.title {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #222222;
+}
+
+h2.heading {
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-family: "raleway";
+}
+
+.color6 {
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.title-1 {
+    font-size: 14px;
+    color: #222222;
+}
+
+
+.icon-1 {
+    color: yellowgreen;
+    font-size: 45px !important;
+    padding-right: 3px;
+}
+
+.icon-2 {
+    color: #07AAA5;
+    font-size: 45px !important;
+    padding-right: 3px;
+}
+
+.icon-3 {
+    color: #EC768C;
+    font-size: 45px !important;
+    padding-right: 3px;
+}
+
+.icon-4 {
+    color: #31AAE1;
+    font-size: 45px !important;
+    padding-right: 3px;
+}
+
+.icon-5 {
+    color: #C183D6;
+    font-size: 45px !important;
+    padding-right: 3px;
+}
+
+.icon-6 {
+    color: #82B440;
+    font-size: 45px !important;
+    padding-right: 3px;
+}
+
+.parallax-judul {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.parallax-2 {
+    height: 320px;
+    margin-top: 30px;
+}
+
+.parallax-judul p {
+    font-size: 14px;
+}
+
+.parallax-judul h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+.parallax-judul a {
+    background-color: greenyellow;
+    color: black;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+
+.unique {
+    margin-top: 35px;
+    text-align: start;
+}
+
+.unique img {
+    width: 600px;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+
+.unique-1 {
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 25px;
+    font-weight: 600;
+    padding: 15px 10px 10px 0;
+    text-transform: capitalize;
+}
+
+.unique h4 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #222222;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.icons-2 {
+    font-size: 13px !important;
+    margin-right: 5px;
+    padding-bottom: 7px;
+    color: #82B440;
+}
+
+.unique li {
+    /* color: #1b1d1f; */
+    display: inline-block;
+    padding-left: 10px;
+    text-transform: capitalize;
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.box {
+    margin-top: 150px;
+}
+
+.kotak-1 {
+    width: 300px;
+    height: 250px;
+    line-height: 220px;
+    position: relative;
+}
+
+.kotak-1 i {
+    font-size: 60px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.kotak-1 .happy,
+.kotak-1 .lines,
+.kotak-1 .project,
+.kotak-1 .cup {
+    position: absolute;
+    top: 0;
+    margin-left: 108px;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #fff;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.happy-1,
+.lines-1,
+.project-1,
+.cup-1 {
+    position: absolute;
+    top: 0;
+    margin-top: 63px;
+    font-size: 15px;
+    color: white;
+    margin-left: 90px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.kotak-1 .cup {
+    margin-left: 97px;
+}
+
+.cup-1 {
+    margin-left: 90px;
+}
+
+.expertise {
+    margin-top: 90px;
+}
+
+.expertise p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #222222;
+}
+
+.expertise h4 {
+    font-size: 44px;
+    margin-top: -10px;
+}
+
+.progress {
+    width: 50%;
+    margin-left: 207px;
+}
+
+.progress-1 {
+    margin-top: 70px;
+}
+
+.services-1 {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.services-1 .title {
+    padding-top: 90px;
+    margin-bottom: -10px;
+}
+
+.card-1 {
+    margin-bottom: -7px;
+}
+
+.icon-card {
+    position: absolute;
+    margin-left: -32px;
+    padding-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.card-title h5 {
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+.card-title a {
+    text-transform: uppercase;
+}
+
+.pseudo:hover,
+.pseudo-1:hover {
+    font-size: 40px;
+    background-color: #82B440 !important;
+}
+
+@media (min-width: 992px) {
+    .parallax-2 {
+        margin-top: 50px;
+        height: 400px;
+    }
+
+    .parallax-judul {
+        margin-top: 120px;
+    }
+
+
+
+}
